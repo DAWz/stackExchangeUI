@@ -4,8 +4,6 @@
 
 For building and running the application you need:
 
-\*_There is a dockerized running instance of this app deployed on Amazon EC2, you can access it [here](http://ec2-13-53-245-221.eu-north-1.compute.amazonaws.com/swagger-ui/index.html)._
-
 - [Node.JS](https://nodejs.org/en/download)
 
 ## Running the application locally
@@ -16,17 +14,6 @@ To get the frontend running locally:
 - `npm install` to install all req'd dependencies
 - `npm start` to start the local server (this project uses create-react-app)
 
-Alternativley you can pull the [docker container](https://hub.docker.com/repository/docker/abdelrahmanosama1/code-sample/general) using:
-
-```shell
-docker pull abdelrahmanosama1/code-sample-fe:latest
-```
-
-And to run it use:
-
-```shell
-docker run -d abdelrahmanosama1/code-sample-fe:latest
-```
 
 ## Project Description
 
