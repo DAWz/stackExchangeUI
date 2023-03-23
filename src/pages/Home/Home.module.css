@@ -1,0 +1,34 @@
+.wrapper {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.separator {
+  width: 20%;
+  border-bottom: 1px solid #4b4c4f;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 4vh;
+}
+
+.visualWrapper {
+  width: 100%;
+}
+
+.visualHeader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.tagSelect {
+  width: 40%;
+}

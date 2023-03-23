@@ -1,0 +1,64 @@
+.wrapper {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.separator {
+  width: 20%;
+  border-bottom: 1px solid #4b4c4f;
+}
+.questionsWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2vh;
+  background-color: #f5f5f570;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.paginationBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.typeSwitch {
+  display: flex;
+  flex-direction: row;
+  gap: 1vh;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 20%;
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+
+.selectedType {
+  padding: 5px;
+  background-color: #e2c2b9;
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+}
+.disabledType {
+  padding: 5px;
+  width: 50%;
+  text-align: center;
+}
+.empty {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vh;
+}
